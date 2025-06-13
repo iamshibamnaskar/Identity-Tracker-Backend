@@ -2,6 +2,21 @@
 
 a way to identify and keep track of a customer's identity across multiple purchases.
 
+## Deployed URL
+Test the API at: [https://identity-tracker-backend.onrender.com/identify](https://identity-tracker-backend.onrender.com/identify)
+
+### API Request Format
+Send a POST request to the endpoint with the following JSON body:
+```json
+{
+    "email": "email to test (nullable)",
+    "phoneNumber": "phone number to test (nullable)"
+}
+```
+
+Note: At least one of `email` or `phoneNumber` must be provided in the request.
+
+## For Running Locally
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -14,8 +29,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bitspeed.git
-cd bitspeed
+git clone https://github.com/iamshibamnaskar/Identity-Tracker-Backend.git
+cd Identity-Tracker-Backend
 ```
 
 2. Install dependencies:
